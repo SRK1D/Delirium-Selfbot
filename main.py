@@ -1,6 +1,5 @@
 import os
 import json
-from ressources.utils.wrappers import *
 
 appSettings = json.load(open("settings.json", "r"))
 
