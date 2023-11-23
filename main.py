@@ -22,8 +22,6 @@ def loadCommands():
     for pythonModule in pythonFiles:
         settings.log("Info", f"Loading -> ./commands/{pythonModule}")
         __import__("commands." + pythonModule)
-        
-    settings.log("Info", "-" * 30 + " RECONNECTION")
 
 def reloadCommands():
     """Cleans the commands list and create it once more (for some reasons)
@@ -64,10 +62,6 @@ def eventHandler(resp):
                     
 loadCommands()
 
-settings.log("Info", "Loading reconnection handler for optimal connection...")
-__import__("ressources.utils.reconnectionHandler")
-
-settings.log("Info", "Loaded custom randomizer!")
 settings.log("Info", "Connecting to gateway...")
 
 settings.bot.gateway.run(auto_reconnect=True)
