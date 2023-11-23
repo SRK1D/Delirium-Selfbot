@@ -6,6 +6,8 @@ mindmap
     commands
       template.py
       ...
+    ressources
+      ...
     settings.py
       settings.json
     requirements.txt
