@@ -18,4 +18,4 @@ def pingCommand(event):
     bot.editMessage(channelID, messageID, "Pong! :ping_pong: ")
     
 settings.commands[fileName] = pingCommand
-settings.commandsInfo[fileName] = ";ping <no settings> - pong"
+settings.commandsInfo[fileName] = ";template <no settings> - pong"
