@@ -6,12 +6,17 @@ mindmap
     commands
       template.py
       ...
-    ressources
-      ...
     settings.py
       settings.json
     requirements.txt
 ```
+
+
+### Why does some commands no worky???!?1/1
+I removed my own keys from this project, these files contains this template: "\<PUT YOUR KEY HERE\>", replace them with the keys needed
+These files needs keys now:
+1. historicalfact
+2. dnslookup
 
 ### How to run it
 
